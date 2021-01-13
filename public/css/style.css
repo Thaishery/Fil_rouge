@@ -27,6 +27,9 @@ header{
     display: flex;
     justify-content: space-around;
 }
+
+/* Lien du Menu de navigation */ 
+
 .menuNavUl li{
     border: 2mm dashed blue;
     border-top: none;
@@ -38,9 +41,24 @@ header{
     background-color: grey;
 }
 
+/* Bas de page: Footer */ 
+
 footer{
+    background-color: grey;
     display: flex;
     justify-content: space-around;
+}
+
+/* Lien du Footer */ 
+
+.socialUl{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer div{
+    width:33%;
+    text-align: center;
 }
 
 
