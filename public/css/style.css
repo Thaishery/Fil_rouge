@@ -1,0 +1,47 @@
+header{
+    width: 100%;
+}
+
+/* Bannière  */ 
+
+.banner {
+    width: 100%;
+    display: flex;
+    background-color: black;
+    justify-content: center;
+}
+
+/* Menu Connnexion */ 
+
+.Login {
+    background-color: white;
+    position: absolute;
+    right: 50px;
+    top: 30px;
+    color:black;
+}
+
+/* Menu de navigation */ 
+
+.menuNavUl{
+    display: flex;
+    justify-content: space-around;
+}
+.menuNavUl li{
+    border: 2mm dashed blue;
+    border-top: none;
+    border-bottom: none;
+    text-align: center;
+    width: 25%;
+    padding-top:20px;
+    padding-bottom: 20px;
+    background-color: grey;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
